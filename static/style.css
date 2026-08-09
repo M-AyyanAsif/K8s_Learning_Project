@@ -1,0 +1,35 @@
+/* Apply light purple background to the whole app */
+.stApp {
+    background-color: #E6E6FA; /* Lavender / Light Purple */
+}
+
+/* Center everything in the main block container at the top */
+.block-container {
+    padding-top: 2rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px !important;
+}
+
+/* Style the custom HTML header */
+.custom-header {
+    text-align: center;
+    color: #4A0E4E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.custom-header h1 {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+/* Style the form container to make it pop against the purple */
+[data-testid="stForm"] {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
+}
